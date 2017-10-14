@@ -6,6 +6,8 @@ const path = require('path');
 const app  = express();
 const router = new Router();
 
+app.use(express.static(__dirname));
+
 router.route('/').get((req, res) => {
   res.sendFile(path.join(__dirname + '/index.html'));
 });
