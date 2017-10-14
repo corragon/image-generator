@@ -1,0 +1,16 @@
+{
+  "name": "image-generator",
+  "version": "0.0.1",
+  "description": "Test image generator",
+  "main": "index.js",
+  "repository": "git@github.com:corragon/image-generator.git",
+  "author": "Thomas Y <corragon@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
+  }
+}
