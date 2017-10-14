@@ -12,6 +12,10 @@ router.route('/').get((req, res) => {
   res.sendFile(path.join(__dirname + '/index.html'));
 });
 
+router.route('/image').get((req, res) => {
+  res.sendFile(path.join(__dirname + '/chicken.png'));
+});
+
 app.use(router);
 
 app.listen(config.server.port, () => {
