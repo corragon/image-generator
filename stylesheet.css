@@ -3,3 +3,24 @@ html {
   background-size: cover;
   color: gray;
 }
+
+form {
+  font-size: 20px;
+}
+
+input {
+  width: 100px;
+  height: 25px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+.submitButton {
+  height: 25px;
+  font-size: 20px;
+}

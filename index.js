@@ -17,3 +17,4 @@ app.use(router);
 app.listen(config.server.port, () => {
   console.log(`image generator running at http://localhost:${config.server.port}`);
 });
+
