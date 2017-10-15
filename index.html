@@ -7,12 +7,12 @@
   </head>
 
   <body>
-    <form>
+    <form method="GET" action="/image">
 
       Height:<br>
-        <input type="number" onkeypress="return event.charCode >= 48 && event.charCode <= 57" max="1000" required><br>
+        <input name="height" type="number" onkeypress="return event.charCode >= 48 && event.charCode <= 57" max="1000" required><br>
       Width:<br>
-        <input type="number" onkeypress="return event.charCode >= 48 && event.charCode <= 57" max="1000" required>
+        <input name="width" type="number" onkeypress="return event.charCode >= 48 && event.charCode <= 57" max="1000" required>
         
       <input type="submit" value="Get Image" class="submitButton">
 
